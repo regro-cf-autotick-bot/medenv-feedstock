@@ -1,5 +1,5 @@
 {% set name = "medenv" %}
-{% set version = "1.0.4" %}
+{% set version = "1.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/medenv-{{ version }}.tar.gz
-  sha256: 96d6d89d70adfcb73bbc796dcecef5604bda100b8bf73cc750ee128c9b4eac1c
+  sha256: 0ad06a50478a5657f83c099d5f428478d737df77d955f7ce393eee81b9bde94c
 
 build:
   noarch: python
